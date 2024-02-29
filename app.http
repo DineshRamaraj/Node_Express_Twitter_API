@@ -35,7 +35,7 @@ GET  http://localhost:3000/tweets/2
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJuYW1lIjoiSm9lIEJpZGVuIiwidXNlcm5hbWUiOiJKb2VCaWRlbiIsInBhc3N3b3JkIjoiJDJiJDEwJDJhcmU2QmE2OW9pL0NhaTRhVC9WTS50N0FPN1RzUXgvLk9nei43WEc0cWp1TWlsMHY4MGFxIiwiZ2VuZGVyIjoibWFsZSIsImlhdCI6MTY3NzEzNTUzMX0.gvLbJW1A97iQXUOOOY8lYa8sYrQ4MBtTLut0K8xqgEc
 ### API-6
 
-GET  http://localhost:3000/tweets/3/likes
+GET  http://localhost:3000/tweets/2/likes
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJuYW1lIjoiSm9lIEJpZGVuIiwidXNlcm5hbWUiOiJKb2VCaWRlbiIsInBhc3N3b3JkIjoiJDJiJDEwJDJhcmU2QmE2OW9pL0NhaTRhVC9WTS50N0FPN1RzUXgvLk9nei43WEc0cWp1TWlsMHY4MGFxIiwiZ2VuZGVyIjoibWFsZSIsImlhdCI6MTY3NzEzNTUzMX0.gvLbJW1A97iQXUOOOY8lYa8sYrQ4MBtTLut0K8xqgEc
 ### API-7
 
@@ -58,6 +58,6 @@ Content-Type: application/json
 }
 ### API-10
 
-DELETE  http://localhost:3000/tweets/1
+DELETE  http://localhost:3000/tweets/4
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJuYW1lIjoiSm9lIEJpZGVuIiwidXNlcm5hbWUiOiJKb2VCaWRlbiIsInBhc3N3b3JkIjoiJDJiJDEwJDJhcmU2QmE2OW9pL0NhaTRhVC9WTS50N0FPN1RzUXgvLk9nei43WEc0cWp1TWlsMHY4MGFxIiwiZ2VuZGVyIjoibWFsZSIsImlhdCI6MTY3NzEzNTUzMX0.gvLbJW1A97iQXUOOOY8lYa8sYrQ4MBtTLut0K8xqgEc
 ### API-11

@@ -47,6 +47,7 @@ const authenticateToken = (request, response, next) => {
         response.status(401);
         response.send("Invalid JWT Token");
       } else {
+        console.log(payload);
         request.payload = payload;
         request.tweetId = tweetId;
         request.tweet = tweet;
@@ -181,9 +182,8 @@ app.get("/tweets/:tweetId", authenticateToken, async (request, response) => {
   const userFollowersQuery = `
         SELECT 
            *
-
-        FROM  follower INNER JOIN user ON user.user_id = follower.following_user_id 
-       
+        FROM  
+            follower INNER JOIN user ON user.user_id = follower.following_user_id 
         WHERE 
             follower.follower_user_id  = ${user_id} 
     ;`;
